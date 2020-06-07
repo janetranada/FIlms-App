@@ -1,0 +1,13 @@
+.App {
+  text-align: center;
+}
+
+.error-msg {
+  color: red;
+  font-size: 1.3rem;
+  margin-bottom: 0;
+}
+
+.error-msg:nth-of-type(2) {
+  margin-top: 0;
+}

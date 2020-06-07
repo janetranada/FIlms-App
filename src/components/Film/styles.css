@@ -1,0 +1,23 @@
+.heart-icon {
+    cursor: pointer;
+    display: inline-block;
+}
+
+.heart-icon:hover,
+.red {
+    color: red;
+}
+
+.film-card {
+    display: inline-block;
+    border-radius: 7px;
+    box-shadow: 0 2px 5px #ccc;
+    padding: 10px;
+    height: 110px;
+    width: 240px;
+    margin: 16px;
+}
+
+.film-card.fave {
+    box-shadow: 0 2px 5px #ffc60b;
+}
